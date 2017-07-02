@@ -6,3 +6,5 @@ a.	Lori não descreveu funcionalidades óbvias, e.g. “comprar o livro”, mas 
 b.	Cada funcionalidade envolve todas as camadas, desde front-end, até banco de dados. Use Mocks, stubs e outras estratégias aprendidas de prototipação de forma que não seja necessário despender muito tempo para a realização do projeto.
 c.	O que cada tipo de usuário necessita é diferente, e queremos atender os usuários mais prioritários primeiro.
 d.	Não precisa descrever explicitamente não-funcionalidades.
+------------------------------
+Code references: https://github.com/SandroVA/BookStore/tree/master/g7w14/src/main/java/g7w14
