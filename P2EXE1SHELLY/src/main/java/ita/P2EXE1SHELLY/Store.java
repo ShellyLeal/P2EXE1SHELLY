@@ -10,9 +10,9 @@ public class Store {
 	
 	
 	
-	public Store (DadosMock bdb, Comprador ubd) {
-		this.dadosmock = bdb;
-		this.comprador = ubd;
+	public Store (DadosMock dadosmoc, Comprador comprador) {
+		this.dadosmock = dadosmock;
+		this.comprador = comprador;
 		
 		
 	}
@@ -49,10 +49,9 @@ public class Store {
 	}
 	
 	
-	
-	
-	
-	public situaçãodevenda checkSellingStatus (String bname) {
-		return comprador.checkSellingStatus(bname);
+	public situaçãodevenda checkSellingStatus (String livro) {
+		return comprador.checkSellingStatus(livro);
 	}
+	
+	
 }
