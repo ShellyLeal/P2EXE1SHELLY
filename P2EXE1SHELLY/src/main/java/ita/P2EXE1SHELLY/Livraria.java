@@ -7,15 +7,15 @@ public class Livraria {
 	int totalEstrelas;
 	int numeroAvaliadores;
 	int numLivros;
-	float price;
+	float preco;
 	ArrayList<String> reviews;
 	
-	public Livraria (String name, int qnt, float price) {
+	public Livraria (String name, int numLivros, float preco) {
 		numeroAvaliadores = 0;
 		totalEstrelas = 0;
 		this.name = name;
-		this.numLivros = qnt;
-		this.price = price;
+		this.numLivros = numLivros;
+		this.preco = preco;
 		reviews = new ArrayList<String>();
 	}
 	
@@ -38,7 +38,7 @@ public class Livraria {
 	}
 	
 	float getPrice () {
-		return price;
+		return preco;
 	}
 	public void review (String comentario) {
 		reviews.add(comentario);
